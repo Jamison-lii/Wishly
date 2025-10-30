@@ -5,21 +5,22 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-pink-50">
-      <h1 className="text-4xl font-bold mb-6">🎉 Birthday Cards 🎉</h1>
-      <p className="mb-8 text-lg text-gray-700">
-        Create a personalized birthday card with photos, music, and a message.
+      <h1 className="text-4xl font-bold mb-6"> Welcome to Wishly </h1>
+      <p className="mb-8 text-lg px-7 text-center text-gray-700">
+       
+        Create a personalized birthday card with photos, music, and a message, because caring doesn't have to be expensive
       </p>
 
-      <div className="space-x-4">
+      <div className="space-x-4 flex flex-col md:flex-row">
         <button
           onClick={() => navigate("/create")}
-          className="px-6 py-3 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
+          className="px-6 py-3 mb-4 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
         >
           Create a Card
         </button>
         <button
           onClick={() => navigate("/card/6903aadf9e23b2bbc0a72ec9")} 
-          className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300"
+          className="px-6 py-3 ml-[-18px] bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300"
         >
           View Example
         </button>
