@@ -71,7 +71,7 @@ const BirthdayCard = () => {
         title: `Birthday Card for ${cardData.name}`,
         text: `Check out this birthday card for ${cardData.name}!`,
         url: window.location.href,
-      }).catch(console.error);
+      }).catch(console.error); 
     } else alert("Share this link: " + window.location.href);
   };
 

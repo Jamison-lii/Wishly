@@ -18,7 +18,7 @@ export default function Home() {
           Create a Card
         </button>
         <button
-          onClick={() => navigate("/card/1")}
+          onClick={() => navigate("/card/6903aadf9e23b2bbc0a72ec9")} 
           className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg shadow hover:bg-gray-300"
         >
           View Example
