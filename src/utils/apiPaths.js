@@ -1,1 +1,1 @@
-export const BASE_URL = "http://localhost:5000/api/cards";
+export const BASE_URL = "https://backendforwishly.onrender.com/api/cards";

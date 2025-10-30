@@ -61,7 +61,7 @@ const CreateCard = () => {
 
 
       const data = await res.json();
-      console.log("✅ Card created:", data);
+    
 
       // Navigate to the card view page using the new card’s ID
       navigate(`/card/${data.card._id}`); 
