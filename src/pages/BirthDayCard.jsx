@@ -171,7 +171,7 @@ const BirthdayCard = () => {
           <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center space-y-6">
             <div className="text-center mb-6">
               <h1 className="text-4xl font-bold text-pink-600 mb-2"> Be my Valentine ❤</h1>
-              <h2 className="text-3xl font-semibold text-gray-800">{name}!</h2>
+              <h2 className="text-3xl font-semibold text-gray-800">{name}</h2>
             </div>
 
             {images.length > 0 && messages[currentImageIndex] && (
