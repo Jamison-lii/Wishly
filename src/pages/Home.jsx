@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -11,13 +11,20 @@ export default function Home() {
         Create a personalized birthday card with photos, music, and a message, because caring doesn't have to be expensive
       </p>
 
-      <div className="space-x-4 flex flex-col md:flex-row">
+      <div className="space-x-4 flex flex-row md:flex-row">
         <button
           onClick={() => navigate("/create")}
           className="px-6 py-3 mb-4 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
         >
           Create a Card
         </button>
+
+         <div
+          
+          className="px-6 py-3 mb-4 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
+        >
+         <a href='https://checkout.fapshi.com/link/30070705'> Support Us </a> 
+        </div>
         
       </div>
     </div>
