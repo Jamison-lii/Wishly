@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-6"> Welcome to Wishly </h1>
       <p className="mb-8 text-lg px-7 text-center text-gray-700">
        
-        Create a personalized birthday card with photos, music, and a message, because caring doesn't have to be expensive
+        Create a Valentine's day card with photos, music, and a message, because caring doesn't have to always be expensive
       </p>
 
       <div className="space-x-4 flex flex-row md:flex-row">
