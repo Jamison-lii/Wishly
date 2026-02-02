@@ -144,7 +144,7 @@ const CreateCard = () => {
         {/* Song upload */}
         <div>
           <label className="block mb-1 font-medium text-gray-700">
-            Upload Song (optional)
+            Upload Song (optional , the default song will play)
           </label>
           <input
             type="file"
