@@ -19,12 +19,14 @@ export default function Home() {
           Create a Card
         </button>
 
+                 <a href='https://checkout.fapshi.com/link/30070705'>
          <div
           
           className="px-6 py-3 mb-4 bg-white text-black rounded-lg shadow hover:bg-pink-600 hover:text-white"
         >
-         <a href='https://checkout.fapshi.com/link/30070705'> Support Us </a> 
+        Support Us  
         </div>
+                   </a>
         
       </div>
     </div>
