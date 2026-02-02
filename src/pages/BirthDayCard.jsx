@@ -223,10 +223,12 @@ const BirthdayCard = () => {
       )}
 
       <ShareLink />
-
-      <div className="text-center mt-6 text-gray-500 text-sm">
-        <p>PS: I Love you</p>
+ 
+      <a href='https://checkout.fapshi.com/link/30070705' >
+        <div className="text-center mt-6 text-gray-500 text-sm">
+        <p>Support wishly</p>
       </div>
+        </a>
     </div>
   );
 };
