@@ -95,7 +95,7 @@ const BirthdayCard = () => {
           className="bg-white text-pink-600 px-8 py-4 rounded-full text-xl font-bold shadow-lg hover:bg-pink-100 transition-all flex items-center gap-2"
         >
           <FiVolume2 className="text-2xl" />
-          Click to Start Birthday Celebration
+          Click to view your card 😊
         </button>
       </div>
     );
@@ -170,7 +170,7 @@ const BirthdayCard = () => {
           {/* Messages */}
           <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center space-y-6">
             <div className="text-center mb-6">
-              <h1 className="text-4xl font-bold text-pink-600 mb-2">Happy Birthday</h1>
+              <h1 className="text-4xl font-bold text-pink-600 mb-2"> Be my Valentine ❤</h1>
               <h2 className="text-3xl font-semibold text-gray-800">{name}!</h2>
             </div>
 
@@ -225,7 +225,7 @@ const BirthdayCard = () => {
       <ShareLink />
 
       <div className="text-center mt-6 text-gray-500 text-sm">
-        <p>PS: I don't have money, but I can code 😅, so I made this</p>
+        <p>PS: I Love you</p>
       </div>
     </div>
   );
