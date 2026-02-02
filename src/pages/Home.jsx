@@ -21,7 +21,7 @@ export default function Home() {
 
          <div
           
-          className="px-6 py-3 mb-4 bg-pink-500 text-white rounded-lg shadow hover:bg-pink-600"
+          className="px-6 py-3 mb-4 bg-white text-black rounded-lg shadow hover:bg-pink-600 hover:text-white"
         >
          <a href='https://checkout.fapshi.com/link/30070705'> Support Us </a> 
         </div>
