@@ -71,7 +71,7 @@ const CreateCard = () => {
         className="bg-white rounded-xl shadow-xl p-8 w-full max-w-lg space-y-6"
       >
         <h1 className="text-3xl font-bold text-pink-600 text-center">
-          Be My Valentine | Wish them Happy Valentine
+           Wish them Happy Val's Day
         </h1>
 
         <input
