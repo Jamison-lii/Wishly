@@ -68,8 +68,8 @@ const BirthdayCard = () => {
     if (!cardData) return;
     if (navigator.share) {
       navigator.share({
-        title: `Birthday Card for ${cardData.name}`,
-        text: `Check out this birthday card for ${cardData.name}!`,
+        title: `Val's Day Card for ${cardData.name}`,
+        text: `Check out this Vals Day card for ${cardData.name}!`,
         url: window.location.href,
       }).catch(console.error); 
     } else alert("Share this link: " + window.location.href);
@@ -170,7 +170,7 @@ const BirthdayCard = () => {
           {/* Messages */}
           <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center space-y-6">
             <div className="text-center mb-6">
-              <h1 className="text-4xl font-bold text-pink-600 mb-2"> Be my Valentine ❤</h1>
+              <h1 className="text-4xl font-bold text-pink-600 mb-2"> Happy Val's Day ❤</h1>
               <h2 className="text-3xl font-semibold text-gray-800">{name}</h2>
             </div>
 
